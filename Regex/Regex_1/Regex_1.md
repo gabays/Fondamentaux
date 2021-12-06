@@ -364,7 +364,7 @@ La syntaxe reste la même: `(?<=juillet\s)[0-9]{4}` pour sélectionner la date d
 ---
 ## Solutions
 
-1. `[A-Z|\d+]+eme`
+1. `[A-Z|\d+]+eme` ou `[IVXLDCM\d+]+eme`
 2. `le\spas` et `pas\?`
 3. `[A-Z]+\ss?\.?£?d?`
 4.
